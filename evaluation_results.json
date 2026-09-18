@@ -1,0 +1,72 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is the International Space Station?",
+    "answer": "a modular space station in low Earth orbit",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.42
+  },
+  {
+    "question_number": 2,
+    "question": "What type of orbit is commonly used for Earth observation?",
+    "answer": "Low Earth orbit",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.17
+  },
+  {
+    "question_number": 3,
+    "question": "What is the purpose of Earth observation satellites?",
+    "answer": "collect information about Earth's atmosphere, land, oceans and environment from space",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.41
+  },
+  {
+    "question_number": 4,
+    "question": "How does a geostationary orbit work?",
+    "answer": "allows a satellite to remain approximately over the same region of Earth",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.35
+  },
+  {
+    "question_number": 5,
+    "question": "What conditions are included in the space environment?",
+    "answer": "radiation, charged particles, solar activity and microgravity",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.28
+  },
+  {
+    "question_number": 6,
+    "question": "Why do spacecraft need attitude control?",
+    "answer": "to perform their missions",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.16
+  },
+  {
+    "question_number": 7,
+    "question": "What is a satellite payload?",
+    "answer": "satellite payload",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.15
+  },
+  {
+    "question_number": 8,
+    "question": "How can satellite observations support disaster response?",
+    "answer": "Satellites can operate in different types of orbits around Earth",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.29
+  },
+  {
+    "question_number": 9,
+    "question": "Why is radiation monitoring important for spacecraft?",
+    "answer": "The space environment includes radiation, charged particles, solar activity and microgravity",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.34
+  },
+  {
+    "question_number": 10,
+    "question": "Why do different spacecraft use different instruments?",
+    "answer": "They are designed with different instruments and capabilities depending on their objectives",
+    "sources_retrieved": 3,
+    "latency_seconds": 0.33
+  }
+]

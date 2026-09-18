@@ -1,0 +1,47 @@
+[
+  {
+    "document_id": "doc_001",
+    "title": "International Space Station",
+    "source": "NASA",
+    "source_url": "https://www.nasa.gov/reference/international-space-station/",
+    "date": "2026",
+    "content": "The International Space Station is a large human-made orbital laboratory. It operates in low Earth orbit and supports scientific research, technology development and international cooperation in space.",
+    "category": "Space Missions"
+  },
+  {
+    "document_id": "doc_002",
+    "title": "Earth Observation Data",
+    "source": "NASA Earthdata",
+    "source_url": "https://www.earthdata.nasa.gov/home",
+    "date": "2026",
+    "content": "NASA Earthdata provides access to NASA Earth science data and resources. Earth observation data can be used to study the atmosphere, land, oceans, climate and other Earth system processes.",
+    "category": "Earth Observation"
+  },
+  {
+    "document_id": "doc_003",
+    "title": "Catalog of Earth Satellite Orbits",
+    "source": "NASA Science",
+    "source_url": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/",
+    "date": "2026",
+    "content": "Satellites operate in different types of Earth orbits. Low Earth orbit is commonly used by scientific and Earth-observation satellites. Geostationary orbit allows a satellite to remain approximately over the same region of Earth and is useful for continuous weather monitoring.",
+    "category": "Orbit"
+  },
+  {
+    "document_id": "doc_004",
+    "title": "Space Radiation",
+    "source": "NASA",
+    "source_url": "https://www.nasa.gov/hrp/hazard-space-radiation/",
+    "date": "2026",
+    "content": "Space radiation includes high-energy particles such as galactic cosmic rays and particles associated with solar storms. Radiation can affect astronauts and spacecraft, so NASA studies and monitors the radiation environment and develops protection approaches.",
+    "category": "Space Environment"
+  },
+  {
+    "document_id": "doc_005",
+    "title": "How NASA Prepares Spacecraft for Radiation",
+    "source": "NASA Science",
+    "source_url": "https://science.nasa.gov/science-research/heliophysics/how-nasa-prepares-spacecraft-for-the-harsh-radiation-of-space/",
+    "date": "2026",
+    "content": "Spacecraft encounter different radiation environments depending on their destination. Engineers consider solar particles, radiation belts and galactic cosmic rays when selecting and testing spacecraft components for a mission.",
+    "category": "Space Technology"
+  }
+]

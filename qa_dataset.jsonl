@@ -1,0 +1,36 @@
+{"question":"What is a satellite?","answer":"A satellite is an object placed in orbit around a planet or other celestial body to perform a specific purpose.","category":"Satellite"}
+{"question":"What is the purpose of a communication satellite?","answer":"A communication satellite helps transmit signals such as television, telephone, internet and other communications between locations on Earth.","category":"Satellite"}
+{"question":"What is a weather satellite?","answer":"A weather satellite observes Earth's atmosphere and weather systems to support weather monitoring and forecasting.","category":"Satellite"}
+{"question":"What is an Earth observation satellite?","answer":"An Earth observation satellite collects information about Earth's land, oceans, atmosphere and environment from space.","category":"Satellite"}
+{"question":"What is a satellite payload?","answer":"A satellite payload is the equipment or instruments carried by a spacecraft to perform its mission.","category":"Satellite"}
+
+{"question":"What is an orbit?","answer":"An orbit is the curved path followed by an object around another object under the influence of gravity.","category":"Orbit"}
+{"question":"What is Low Earth Orbit?","answer":"Low Earth Orbit, or LEO, is an orbit relatively close to Earth and is commonly used for Earth observation and crewed spacecraft.","category":"Orbit"}
+{"question":"What is geostationary orbit?","answer":"A geostationary orbit allows a satellite to remain approximately over the same region of Earth as Earth rotates.","category":"Orbit"}
+{"question":"Why are different satellite orbits used?","answer":"Different orbits provide different altitude, coverage, observation and communication characteristics suited to different mission objectives.","category":"Orbit"}
+{"question":"What determines a satellite's orbit?","answer":"A satellite's orbit depends on factors such as altitude, velocity, inclination and the gravitational environment.","category":"Orbit"}
+
+{"question":"What is Earth observation?","answer":"Earth observation is the collection of information about Earth's atmosphere, land, oceans and environment using observations from space or other platforms.","category":"Earth Observation"}
+{"question":"How do satellites help monitor the environment?","answer":"Satellites provide observations of land, oceans and the atmosphere that can support environmental studies and monitoring.","category":"Earth Observation"}
+{"question":"How can Earth observation support disaster response?","answer":"Earth observation data can provide information about affected areas and support assessment and disaster response activities.","category":"Earth Observation"}
+{"question":"What can Earth observation satellites observe?","answer":"Earth observation satellites can collect information about Earth's atmosphere, land, oceans and environment.","category":"Earth Observation"}
+{"question":"How are satellite observations used in weather monitoring?","answer":"Satellite observations provide information about Earth's atmosphere and weather systems that can support weather monitoring and forecasting.","category":"Earth Observation"}
+
+{"question":"What is the International Space Station?","answer":"The International Space Station, or ISS, is a modular space station in low Earth orbit.","category":"Space Missions"}
+{"question":"What is the purpose of the ISS?","answer":"The ISS serves as a microgravity and space environment research laboratory where scientific research and technology demonstrations are conducted.","category":"Space Missions"}
+{"question":"What is a space mission?","answer":"A space mission is an organized effort to send spacecraft, instruments or people into space to achieve specific scientific, technological or operational objectives.","category":"Space Missions"}
+{"question":"Why are scientific experiments conducted in space?","answer":"Space missions can provide environments such as microgravity that allow scientists to conduct research and technology demonstrations that are different from those possible on Earth.","category":"Space Missions"}
+{"question":"What is a crewed space mission?","answer":"A crewed space mission is a space mission in which astronauts travel aboard a spacecraft.","category":"Space Missions"}
+
+{"question":"What is the space environment?","answer":"The space environment includes conditions such as radiation, charged particles, solar activity and microgravity.","category":"Space Environment"}
+{"question":"How does radiation affect spacecraft?","answer":"Radiation in the space environment can affect spacecraft systems and electronics, so missions use monitoring and protective technologies.","category":"Space Environment"}
+{"question":"What are charged particles in space?","answer":"Charged particles are particles carrying an electric charge that are present in the space environment and can affect spacecraft and astronauts.","category":"Space Environment"}
+{"question":"What is solar activity?","answer":"Solar activity refers to changing activity from the Sun that can influence the space environment around Earth and spacecraft.","category":"Space Environment"}
+{"question":"Why is space environment monitoring important?","answer":"Monitoring the space environment helps missions understand conditions such as radiation, charged particles and solar activity that can affect spacecraft and astronauts.","category":"Space Environment"}
+
+{"question":"What systems does a satellite need?","answer":"Satellites can use systems for power generation, communications, onboard computing, sensors and attitude control.","category":"Space Technology"}
+{"question":"What is satellite attitude control?","answer":"Attitude control is the technology used to control the orientation of a spacecraft so its systems and instruments can operate as intended.","category":"Space Technology"}
+{"question":"How do satellites generate power?","answer":"Satellites commonly use power-generation systems to provide electricity for spacecraft systems and instruments.","category":"Space Technology"}
+{"question":"What is a satellite sensor?","answer":"A satellite sensor is an instrument that collects measurements or observations needed for the spacecraft's mission.","category":"Space Technology"}
+{"question":"What is satellite communication?","answer":"Satellite communication uses spacecraft communication systems to transmit information between the satellite and other locations.","category":"Space Technology"}
+{"question":"Why do different spacecraft have different instruments?","answer":"Different spacecraft are designed for different mission objectives, so their instruments and capabilities vary according to those objectives.","category":"Space Technology"}
