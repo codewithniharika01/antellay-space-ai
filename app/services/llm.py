@@ -15,7 +15,6 @@ def generate_answer(question: str, context: str) -> str:
         raise RuntimeError("HF_TOKEN is not set")
 
     client = InferenceClient(
-        model=MODEL_NAME,
         provider="auto",
         api_key=HF_TOKEN,
     )
@@ -23,6 +22,7 @@ def generate_answer(question: str, context: str) -> str:
     prompt = f"""You are a space intelligence assistant.
 
 Answer the question using ONLY the provided context.
+
 If the context does not contain enough information, say:
 "I don't have enough information in the knowledge base to answer this."
 
@@ -33,7 +33,8 @@ Question:
 {question}
 """
 
-    response = client.chat_completion(
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
         messages=[
             {
                 "role": "system",
