@@ -20,13 +20,24 @@ def ask_question(
         for result in results
     )
 
-    if context:
+    if not context:
+        return {
+            "question": question,
+            "answer": "No relevant information found in the knowledge base.",
+            "sources": []
+        }
+
+    try:
         answer = generate_answer(
             question=question,
             context=context
         )
-    else:
-        answer = "No relevant information found."
+    except Exception:
+        answer = (
+            "The relevant information was retrieved successfully, "
+            "but the external LLM service is currently unavailable. "
+            "Please try again later."
+        )
 
     sources = [
         {
