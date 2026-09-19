@@ -1,36 +1,51 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import os
 
-MODEL_NAME = "google/flan-t5-small"
+from dotenv import load_dotenv
+from huggingface_hub import InferenceClient
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
+load_dotenv()
+
+HF_TOKEN = os.getenv("HF_TOKEN")
+
+MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
 
 
 def generate_answer(question: str, context: str) -> str:
-    prompt = f"""Answer the question using only the provided context.
+    if not HF_TOKEN:
+        raise RuntimeError("HF_TOKEN is not set")
+
+    client = InferenceClient(
+        model=MODEL_NAME,
+        provider="auto",
+        api_key=HF_TOKEN,
+    )
+
+    prompt = f"""You are a space intelligence assistant.
+
+Answer the question using ONLY the provided context.
+If the context does not contain enough information, say:
+"I don't have enough information in the knowledge base to answer this."
 
 Context:
 {context}
 
 Question:
 {question}
+"""
 
-Answer:"""
-
-    inputs = tokenizer(
-        prompt,
-        return_tensors="pt",
-        truncation=True
+    response = client.chat_completion(
+        messages=[
+            {
+                "role": "system",
+                "content": "Answer accurately using only the supplied context."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        max_tokens=150,
+        temperature=0.2,
     )
 
-    outputs = model.generate(
-        **inputs,
-        max_new_tokens=100
-    )
-
-    answer = tokenizer.decode(
-        outputs[0],
-        skip_special_tokens=True
-    )
-
-    return answer
+    return response.choices[0].message.content
