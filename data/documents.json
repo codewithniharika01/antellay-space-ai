@@ -43,5 +43,50 @@
     "date": "2026",
     "content": "Spacecraft encounter different radiation environments depending on their destination. Engineers consider solar particles, radiation belts and galactic cosmic rays when selecting and testing spacecraft components for a mission.",
     "category": "Space Technology"
+  },
+  {
+    "document_id": "doc_006",
+    "title": "Spacecraft Attitude Control",
+    "source": "NASA Science",
+    "source_url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter11-2/",
+    "date": "2026",
+    "content": "A spacecraft's attitude is its orientation in space. Attitude control stabilizes and controls the spacecraft so its high-gain antenna can point accurately toward Earth for communications, scientific instruments can point correctly to collect data, thermal conditions can be managed, and propulsive maneuvers can be performed in the correct direction.",
+    "category": "Space Technology"
+  },
+  {
+    "document_id": "doc_007",
+    "title": "Science Instruments and Spacecraft Payloads",
+    "source": "NASA Science",
+    "source_url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
+    "date": "2026",
+    "content": "Science instruments are carried by spacecraft to collect scientific data and perform observations or experiments. Instruments are integrated with the spacecraft and tested to verify commands, telemetry, power, thermal and mechanical requirements. Different instruments have different purposes and can include remote-sensing and direct-sensing systems.",
+    "category": "Space Technology"
+  },
+  {
+    "document_id": "doc_008",
+    "title": "Earth Observation and Disaster Response",
+    "source": "NASA Disasters",
+    "source_url": "https://disasters.nasa.gov/what-we-do/disasters",
+    "date": "2026",
+    "content": "NASA uses Earth observation data to support disaster planning, response and recovery. Satellite observations can provide information about hazards and affected areas, helping decision-makers and response teams understand disaster impacts. NASA provides Earth observation data, analysis and tools for events such as floods, fires, hurricanes, landslides and other hazards.",
+    "category": "Earth Observation"
+  },
+  {
+    "document_id": "doc_009",
+    "title": "NASA Space Missions",
+    "source": "NASA",
+    "source_url": "https://www.nasa.gov/nasa-missions/",
+    "date": "2026",
+    "content": "NASA conducts human spaceflight, science and space technology missions. Science missions study Earth, the Sun, the Moon, Mars and other destinations. Space technology missions demonstrate technologies and capabilities for future science and exploration missions.",
+    "category": "Space Missions"
+  },
+  {
+    "document_id": "doc_010",
+    "title": "Spacecraft Instruments",
+    "source": "NASA Science",
+    "source_url": "https://science.nasa.gov/mission/aura/spacecraft-and-instruments/",
+    "date": "2026",
+    "content": "Spacecraft use different instruments because missions have different scientific objectives and observation requirements. Instruments can provide complementary capabilities for studying Earth's atmosphere, environmental conditions and other targets. Instrument selection depends on what a mission needs to measure and observe.",
+    "category": "Space Technology"
   }
 ]

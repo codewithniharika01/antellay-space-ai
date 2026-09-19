@@ -36,9 +36,9 @@ def evaluate():
             documents = retrieve_documents(question, db)
 
             context = "\n\n".join(
-                document.content
-                for document in documents
-            )
+                    result["chunk"].content
+                    for result in documents
+                )
 
             if context:
                 answer = generate_answer(

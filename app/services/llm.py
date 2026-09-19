@@ -7,9 +7,7 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 
-MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
-
-
+MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct:featherless-ai"
 def generate_answer(question: str, context: str) -> str:
     if not HF_TOKEN:
         raise RuntimeError("HF_TOKEN is not set")
