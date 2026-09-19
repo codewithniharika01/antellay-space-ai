@@ -1,20 +1,20 @@
-\# ANTELLAY Space Intelligence API
+** ANTELLAY Space Intelligence API
 
 
 
-A mini Space Intelligence API built using FastAPI, SQLite, SQLAlchemy, JWT authentication, Retrieval-Augmented Generation (RAG), and an open-source instruct LLM.
+*A mini Space Intelligence API built using FastAPI, SQLite, SQLAlchemy, JWT authentication, Retrieval-Augmented Generation (RAG), and an open-source instruct LLM.
 
 
 
-\## Project Overview
+** Project Overview
 
 
 
-This project was developed as part of the ANTELLAY SPACE Backend + AI/LLM Engineering Intern assignment.
+*This project was developed as part of the ANTELLAY SPACE Backend + AI/LLM Engineering Intern assignment.
 
 
 
-The API provides:
+*The API provides:
 
 
 
@@ -62,11 +62,11 @@ The API provides:
 
 
 
-\## Project Structure
+** Project Structure
 
 
 
-```text
+*text
 
 antellay-space-ai/
 
