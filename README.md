@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ** ANTELLAY Space Intelligence API
+=======
+\- ANTELLAY Space Intelligence API
+>>>>>>> 39b3cec (Add middleware error handling JWT auth and API versioning)
 
 
 
@@ -6,7 +10,11 @@
 
 
 
+<<<<<<< HEAD
 ** Project Overview
+=======
+\-Project Overview
+>>>>>>> 39b3cec (Add middleware error handling JWT auth and API versioning)
 
 
 
@@ -36,7 +44,7 @@
 
 
 
-\## Tech Stack
+\-- Tech Stack
 
 
 
@@ -62,7 +70,11 @@
 
 
 
+<<<<<<< HEAD
 ** Project Structure
+=======
+\@ Project Structure
+>>>>>>> 39b3cec (Add middleware error handling JWT auth and API versioning)
 
 
 
@@ -136,10 +148,17 @@ API Endpoints:-
 
 Authentication:
 
-POST /auth/register
+/api/v1/auth/register
+/api/v1/auth/login
+/api/v1/satellites
+/api/v1/ask
 
-POST /auth/login
+The API uses JWT-based authentication.
 
+1. Register a user using `/api/v1/auth/register`.
+2. Login using `/api/v1/auth/login`.
+3. The login endpoint returns a JWT access token.
+4. Protected endpoints require the token using the Bearer authentication scheme.
 
 
 Satellites:
@@ -159,57 +178,65 @@ POST /ask
 The /ask endpoint retrieves relevant knowledge-base content and passes the retrieved context to the LLM.
 
 
+/-Error Handling
+
+The API uses centralized exception handling for:
+
+- Request validation errors
+- Database errors
+- Unexpected server errors
+- HTTP authentication and resource errors
+
+Errors are returned using a consistent JSON structure.
+
+/-Middleware
+
+The API includes middleware for:
+
+- Request ID generation
+- Request logging
+- Response time measurement
+- Response headers such as `X-Request-ID` and `X-Process-Time`
+
+API Versioning
+The current API version is `v1`.
+
+Base path:
+
+`/api/v1`
+
+Example endpoints:
+
+- `/api/v1/auth/register`
+- `/api/v1/auth/login`
+- `/api/v1/satellites`
+- `/api/v1/ask`
 
 The response includes:
-
-
-
 Question
-
 Answer
-
 Source title
-
 Source
-
 Source URL
-
 Category
-
-
 
 Knowledge Base:
 
 
 The project contains 10 curated public space-related documents covering:
 
-
-
 Space Missions
-
 Orbit
-
 Earth Observation
-
 Space Environment
-
 Space Technology
 
-
-
 The sources are based on publicly available NASA and NASA-affiliated information.
-
-
 
 The current retrieval system uses keyword-based scoring. Title and category matches receive higher priority than general content matches.
 
 
-
-
 RAG Pipeline:
-
-
-
 Public Space Sources
 
 &#x20;       ↓
@@ -249,45 +276,26 @@ LLM: The project integrates an open-source instruct model through Hugging Face h
 
 Qwen/Qwen2.5-1.5B-Instruct  
 
-
-
 The application does not train the full LLM. Retrieved knowledge-base context is provided to the model to generate grounded answers.
-
-
 
 Dataset:
 
 The project contains 30+ space-related question-answer pairs covering:
 
-
-
 Satellite
-
 Orbit
-
 Earth Observation
-
 Space Missions
-
 Space Environment
-
 Space Technology
-
-
 
 Testing:
 
 Automated tests cover:
 
-
-
 Satellite API behavior
-
 Missing satellite handling
-
 RAG retrieval
-
-
 
 The RAG evaluation also includes novel test questions and records response latency and retrieved sources.
 
@@ -304,90 +312,41 @@ No relevant information found in the knowledge base.
 
 The API also returns source information with generated answers to improve traceability.
 
-
-
-
-
 Deployment:--
-
-
-
 Live API:
-
-
-
 https://antellay-space-ai.onrender.com
 
-
-
 Swagger documentation:
-
-
-
 https://antellay-space-ai.onrender.com/docs
 
-
-
 GitHub:
-
-
-
 https://github.com/codewithniharika01/antellay-space-ai
-
-
 
 Deployment Note:
 
 The application uses hosted Hugging Face inference so that the Render deployment does not require large local ML model dependencies.
 
-
-
 The external inference service may become temporarily unavailable because of provider limits or quota restrictions. The API handles this gracefully and still returns retrieved knowledge-base sources instead of returning an internal server error.
 
-
-
 Security:
-
 Secrets such as:
-
-
-
 SECRET\_KEY
-
 HF\_TOKEN
-
-
-
 are stored in environment variables and are not committed to GitHub.
-
-
 
 Future Improvements:-
 
 Possible future improvements include:
-
-
-
 \-Embedding-based semantic retrieval
-
 \-Vector database integration
-
 \-Improved evaluation metrics
-
 \-Better document extraction and chunking
-
 \-More knowledge-base sources
-
 \-LLM provider fallback
-
 \-Monitoring and observability
-
 \-Satellite intelligence endpoint using NORAD data
 
-
-
 Author:
-
 Niharika Bharti
 
 
